@@ -21,10 +21,15 @@ public class Sample {
 		mn.savings(55, 89);
 		System.out.println(mn.c);
 		
+		Sample nm = new Sample();
+		System.out.println(mn.b);
+		System.out.println(mn.a);
+		System.out.println(mn.c);
 		Sample mk = new Sample();
 		System.out.println(mk.a);
 		System.out.println(mk.b);
 		System.out.println(mk.c);
+
 
 	}
 

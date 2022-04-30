@@ -20,6 +20,11 @@ public class Sample {
 		System.out.println(mn.c);
 		mn.savings(55, 89);
 		System.out.println(mn.c);
+		
+		Sample nm = new Sample();
+		System.out.println(mn.b);
+		System.out.println(mn.a);
+		System.out.println(mn.c);
 
 	}
 
